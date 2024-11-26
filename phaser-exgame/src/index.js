@@ -1,4 +1,4 @@
-import '@/styles/index.css';
+import '@/styles/background/index.css';
 import Phaser, { Physics } from 'phaser'
 
 // 게임설정
