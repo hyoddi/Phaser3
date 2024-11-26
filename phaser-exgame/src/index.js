@@ -1,3 +1,4 @@
+import '@/styles/index.css';
 import Phaser, { Physics } from 'phaser'
 
 // 게임설정
@@ -11,7 +12,9 @@ const config = {
     height:화면높이,
     physics:{// 물리엔진
         default:'arcade', // arcade 엔진
-        debug:true, // 디버깅 사용}
+        arcade : {
+            // debug:true,// 디버깅 사용
+            }
     }
 }
 
