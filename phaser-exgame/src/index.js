@@ -1,4 +1,4 @@
-import 'index.css';
+import '/workspaces/Phaser3/phaser-exgame/src/index.css';
 import Phaser from 'phaser'
 
 import Loading from './scenes/loading';
